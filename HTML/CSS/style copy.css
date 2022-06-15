@@ -1,0 +1,365 @@
+
+
+
+/* CONFIG HOME */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../CSS/imagem_bg.png);
+    background-size: 2200px;
+    background-position: center;
+    justify-content: center;
+
+}
+
+/* CABEÇALHO HOME */
+header {
+    display: flex;
+    padding: 20px;
+    background:#004eb4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* NOME CIDADE */
+.logo {
+    display: flex;
+    color: #ffffff;
+    margin-left: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px; 
+    justify-content: left;
+    align-items: center;
+}
+
+.bt_hamb {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-image:url(../CSS/hamb_branco.svg);
+    background-color: #eaeaea;
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: rgba(0, 0, 0, 0);   
+    border-color: rgba(240, 255, 255, 0); 
+}
+
+/* MENU DE NAVEGAÇÃO */
+nav {
+    display: none;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+/* LINKS DE NAVEGAÇÃO */
+nav a {
+    text-decoration: solid;
+    color: #ffffff;
+    margin: 12px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    background-color:#004FB4#0047a3;
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+    
+nav a:hover {
+    background-color: #ffffff;
+    transform: scale(1.01);
+    color: #004FB4;
+    font-size: 21px;
+
+
+}
+
+/* BANNER HOME */
+.banner {
+    display: flex;
+    height: 200px;
+    width: auto;
+    background-image: url(../CSS/Pórtico_de_Caçapava_do_Sul.jpg);
+    background-position: center;
+    background-size: 700px;
+    background-position-y: -100px;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+/* TEXTO BANNER */
+.banner p {
+    padding: 10px;
+    display: none;
+    width: 425px;
+    color: #ffffff;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+
+/* SESSÃO CURIOSIDADES */
+.curiosidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+    width: auto;
+    margin-top: 400px;
+    margin-left: 0px;
+    
+}
+
+/* CARDS CURIOSIDADES */
+.curiosidades div {
+    display: flex;
+    height: 550px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    box-shadow: 2px 2px 15px 2px rgba(110, 110, 110, 0.196);
+    justify-content: center;
+    
+}
+
+.curiosidades div:hover {
+    box-shadow: 4px 4px 9px 4px rgba(139, 139, 139, 0.517);
+    height: 710px;
+
+}
+    /* PRIMEIRO CARD */
+    .box1 {
+        background-image: url(../CSS/minas.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 300px;
+        display: flex;
+        flex-direction: column;
+        }
+
+    .txt_box_1 {
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 18px;
+        color: gray;
+    }
+
+    .title_box_1 {
+        margin-top: 210px;
+        color: #004FB4;
+        margin-left: 30px;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .bt_box1 {
+        height:60px;
+        margin-bottom: 20px;
+        width:240px;
+        margin-left: 30px;
+        border-radius: 20px;
+        border: #ffffff;
+        background-color: #004FB4;
+        color: #ffffff;
+    }
+
+    .bt_box1:hover {
+        background-color: #eaeaea;
+        color: #004FB4;
+    }
+
+    /* SEGUNDO CARD */
+    .box2 {
+        background-image: url(../CSS/imagens_15675974883750.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 300px;
+        display: flex;
+        flex-direction: column
+    }
+        
+    .txt_box_2 {
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 18px;
+        color: gray;
+    }
+        .txt_box_2 span {
+            color: black;
+        }
+
+    .title_box_2 {
+        margin-top: 210px;
+        color: #004FB4;
+        margin-left: 30px;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .bt_box2 {
+        height:60px;
+        margin-bottom: 20px;
+        width:240px;
+        margin-left: 30px;
+        border-radius: 20px;
+        border: #ffffff;
+        background-color: #004FB4;
+        color: #ffffff;
+    }
+
+    .bt_box2:hover {
+        background-color: #eaeaea;
+        color: #004FB4;
+    }
+
+    /* TERCEIRO CARD */
+    .box3 {
+        background-image: url(../CSS/forte2.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position-y: -60px;
+        display: flex;
+        flex-direction: column
+        }
+
+    .txt_box_3 {
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 18px;
+        color: gray;
+    }
+
+    .title_box_3 {
+        margin-top: 210px;
+        color: #004FB4;
+        margin-left: 30px;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    
+    .bt_box3 {
+        height:60px;
+        margin-bottom: 20px;
+        width:240px;
+        margin-left: 30px;
+        border-radius: 20px;
+        border: #ffffff;
+        background-color: #004FB4;
+        color: #ffffff;
+    }
+
+    .bt_box3:hover {
+        background-color: #eaeaea;
+        color: #004FB4;
+    }
+
+/* VIDEO */
+.video {
+    display: flex;
+    margin-top: 400px;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: auto;
+    padding: 40px;
+}
+    .video div {
+        display: flex;
+        height: 600px;
+        width: 1000px;
+        border-radius: 50px;
+        margin-bottom: 300px; 
+        margin-top: 300px;
+}
+    /* INCORPORADO YOUTUBE */
+    iframe {
+        height:100%;
+        width: 100%;
+        border-radius: 30px;
+    }
+
+/* RODAPÉ */
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    height:100%;
+    width: auto;
+    padding: 90px;
+    background: #004FB4;
+    justify-content: left;
+    align-items: center;
+}
+
+
+/* LINK GIT HUB */
+.git {
+    text-decoration: none;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    background-image: url(../CSS/104805126.png);
+    background-size: 200px;
+    color: #ffffff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.git:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 2px 15px 2px rgba(0, 9, 54, 0.702);
+}
+
+/* LINK LINKEDIN */
+.linkedin {
+    text-decoration: none;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    background-image: url(../CSS/1654189755331.jpg);
+    background-size: 200px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 2px 15px 2px rgba(0, 9, 54, 0.702);
+}
+
+footer h2 {
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 280px;
+}
+
+ 
